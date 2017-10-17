@@ -1133,19 +1133,7 @@ Some of the options recognized are:
 
   - There is no support for checking that the number of columns in each row is the same. However, this directive supports CSV generators that do not insert "empty" entries at the end of short rows, by automatically adding empty entries.
 
-    .. code-block:: rst
-
-      .. csv-table:: Table with different number of columns in each row
-         :header: "Name", "Grade"
-   
-         "Peter"
-         "Paul", "B"
-
-   .. csv-table:: Table with different number of columns in each row
-      :header: "Name", "Grade"
-   
-      "Peter"
-      "Paul", "B"
+    
 
   - Whitespace delimiters are supported only for external CSV files.
 

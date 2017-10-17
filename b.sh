@@ -2,4 +2,5 @@
 
 rm -rf build/*
 sphinx-build -b dirhtml . build
+sphinx-build -b rinoh . build
 

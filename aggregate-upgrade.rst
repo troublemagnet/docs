@@ -28,15 +28,15 @@ If you are unable to log onto your server, you will need to search for the versi
 1. Open a browser to https://appengine.google.com.
 2. Choose the project id for your ODK Aggregate server by clicking on the project dropdown in the top left corner.
 
-.. image:: /img/aggregate-upgrade/dropdown.*
+.. image:: /img/aggregate-upgrade/dropdown.png
    :alt: Image showing dropdown option.
 
-.. image:: /img/aggregate-upgrade/select-project.*
+.. image:: /img/aggregate-upgrade/select-project.png
    :alt: Image showing project selection window.   
  
 3. Search `logs` in the search box and select `logging`.
 
-.. image:: /img/aggregate-upgrade/search-logs.*
+.. image:: /img/aggregate-upgrade/search-logs.png
    :alt: Image showing searching log.
 
 4. In the filter text box paste this text : `afterPropertiesSet` and hit enter.
@@ -46,7 +46,7 @@ If you are unable to log onto your server, you will need to search for the versi
 
    13:24:54.806 org.opendatakit.common.security.Realm afterPropertiesSet: Version: v1.4.15 Production (Realm.java:51)
 
-.. image:: /img/aggregate-upgrade/find-version.*
+.. image:: /img/aggregate-upgrade/find-version.png
    :alt: Image showing search result for version.  
 
 .. note::

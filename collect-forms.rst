@@ -40,7 +40,7 @@ You can also download forms to your device via a web browser, and move them to t
 Loading form media
 ~~~~~~~~~~~~~~~~~~~~~
 
-If a form :ref:`includes images or other media <image-options>`, those files have to be loaded to the device along with the form.
+If a form :ref:`includes images, csv files or other media <image-options>`, those files have to be loaded to the device along with the form.
 
 Media files should be placed in a folder labelled :file:`{form-name}-media`. 
 
